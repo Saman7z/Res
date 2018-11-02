@@ -1,0 +1,48 @@
+.divArrow{
+    display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content:center;
+        margin-bottom: 0px;
+        transform: translateY(-45px);
+}
+
+    .puff-in-center:hover {
+        -webkit-animation: puff-in-center 500ms cubic-bezier(0.470, 0.000, 0.745, 0.715) infinite both;
+                animation: puff-in-center 500ms cubic-bezier(0.470, 0.000, 0.745, 0.715) infinite both;
+    }
+
+@-webkit-keyframes puff-in-center {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-filter: blur(2px);
+              filter: blur(2px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes puff-in-center {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-filter: blur(2px);
+              filter: blur(2px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+

@@ -1,0 +1,40 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://Saman7z.github.io/Resume",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-affixed": "^1.1.3",
+    "react-dom": "^16.5.2",
+    "react-scripts": "1.1.5",
+    "react-scroll": "^1.7.10",
+    "react-scroll-to": "^1.2.2",
+    "react-snowf": "0.0.3",
+    "react-snowflakes": "^1.0.0",
+    "react-snowstorm": "0.0.2",
+    "react-social-media-bar": "^0.0.4",
+    "react-social-media-icons": "^1.0.3",
+    "react-sticky": "^6.0.3",
+    "reactstrap": "^6.5.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-social-icons": "^3.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

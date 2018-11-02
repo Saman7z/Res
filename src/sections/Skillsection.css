@@ -1,0 +1,14 @@
+@media (max-width: 450px) {
+
+    .third{
+      height: 130vh;
+    }
+  }
+  .cards-wrapper{
+    display: flex;
+    flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+ 
+  

@@ -1,0 +1,35 @@
+.card{
+    border-radius: 10px;
+    border: solid 2px #bbb5b5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 200px;
+    width: 120px;
+        margin: 10px;
+     
+  }
+  .card:hover{
+    
+    box-shadow:5px 5px 5px #201e1e;
+  }
+  .image-wrapper{
+   
+    width: 90px;
+    height: 110px;
+    text-align: center;
+    padding: 5px;
+  }
+  .skill-title-wrapper{
+    padding: 5px;
+    height: 100px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  img{
+    max-width: 100%;
+    max-height: 100%;
+  }

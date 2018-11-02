@@ -1,0 +1,16 @@
+.matn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 22px;
+  }
+  @media screen and (max-width: 1020px) {
+    
+ #gushi{
+   display: none;
+
+   
+
+ }
+  }
