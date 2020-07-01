@@ -12,22 +12,24 @@ class AboutSection extends Component {
         style={{ color: this.props.color, backgroundColor: this.props.bgcolor }}
       >
         <Fullpage className="second">
-          <h3>{data.sections[0].title}</h3>
-          <div className="matn">
+        <div className="about">
+          <h3 className="aboutTitle">{data.sections[0].title}</h3>
             {data.sections[0].items.map(p => {
               return(
-                <p style={{textAlign:"center",justifyContent:"center"}}><br/>{p.content}<br/><br/>
-               <span id="gushi"> {p.about}<br/><br/>
-                {p.more}<br/><br/>
-                {p.once}<br/><br/>
-                {p.onceMore}<br/><br/>
-                {p.last}<br/><br/>
-                {p.finall}</span> 
+                <p className="aboutText">
+                {p.content}
+                <span id="gushi">{p.about}</span><br/>
+                {p.more}<br/>
+                {p.once}
+                {p.onceMore}<br/>
+                {p.last}
+                {p.finall}
+                {/* <span id="gushi"> </span>  */}
                 </p>
 
               )
             })}
-          </div>
+         </div>
         </Fullpage>
 
 

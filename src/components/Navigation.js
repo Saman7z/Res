@@ -18,13 +18,15 @@ export default class Navigation extends Component {
           className="fa fa-magic rotate-center"
           onClick={this.props.src}
           style={{
-            color: "orange",
+            color: "red",
             fontSize: "24px",
             padding: "5px",
             float: "right",
-            marginRight: "0"
+            marginRight: "5",
+            marginTop:"28px",
+            zIndex:"999999"
           }}
-        >Color Me</span>
+        >Magic Wand</span>
 
         <nav>
 
@@ -62,9 +64,7 @@ export default class Navigation extends Component {
               style={{
                 color: this.props.color,
                 marginRight: "5px",
-                padding: "5px",
-
-                textDecorationColor: this.props.color
+                padding: "5px"
               }}
             >
               Skill

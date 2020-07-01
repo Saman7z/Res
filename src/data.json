@@ -1,114 +1,113 @@
 {
-    "title": "Hello! I'm Saman",
-    "subtitle": " Full Stack Dev | Open-Source Enthusiast | Gamer ",
-    "socialIcon": [{
-            "url": "https://github.com/Saman7z",
-            "className": "fa-github"
-        },
-        {
-            "url": "https://telegram.me/saman7z",
-            "className": "fab fa-telegram"
-        },
-        {
-            "url": "https://linkedin.com/in/saman7z",
-            "className": "fa-linkedin"
-        },
-        {
-          "url":"https://instagram.com/Saman7z",
-          "className": "fa-instagram"
-        }
-
-    ],
-    "links": {
-        "github": "https://github.com/Saman7z",
-        "telegram": "https://stackoverflow.com",
-        "linkedin": "https://linkedin.com/in/saman7z",
-        "instagram":"https://instagram.com/Saman7z"
-    },
-    "sections": [{
-            "title": "about",
-            "items": [{
-                "type": "p",
-                "content": "I am Saman and i am a computer engineering graduate and i love codding. ",
-                "about":"Junior level programmer, document analyst, and developer advocate with experience in full-stack work across multiple technologies .",
-                "more":"Very flexible, fast learner, proven ability to adapt to new technologies.",
-                "once":"I readily adapt to new environments and enthusiastically take on new responsibilities and challenges.  Additionally, ",
-                "onceMore":"I am equally effective in team-oriented and self-driven professional environments.",
-                "last":"  I am confident that I could be a valuable asset to your firm, and look forward to interviewing with you in the near future ",
-                "finall":"so that I may have the opportunity to prove this to you in person."
-
-                
-            }]
-        },
-        {
-          "title":"Skills",
-  "items":[
+  "title": "I'm Saman",
+  "subtitle": " Full Stack Dev | Open-Source Enthusiast | Gamer ",
+  "socialIcon": [
     {
-      "type":"card",
-      "content":{
-"image":"icons/javascript.svg",
-"title":"JavaScript"
-}
-},
-{"type":"card",
-"content":{
-"image":"icons/react.svg",
-"title":"React"
-}
-},
-{"type":"card",
-"content":{
-"image":"icons/html.svg",
-"title":"HTML"
-}
-},
-{"type":"card",
-"content":{
-"image":"icons/css.svg",
-"title":"CSS"
-}
-},
-{"type":"card",
-"content":{
-"image":"icons/python.svg",
-"title":"Python"
-}
-},
-{"type":"card",
-"content":{
-"image":"icons/bootstrap.png",
-"title":"Bootstrap"
-}
-}
-]
-}
-],
-    "icons": {
-        "down": "images/down.png",
-        "top": "images/top.png",
-        "magic": "images/magic-wand.png"
+      "url": "https://github.com/Saman7z",
+      "className": "fa-github"
     },
-    "color": {
-        "backgroundColor": [
-
-            {
-                "bgColor": "white"
-            },
-
-
-            {
-                "bgColor": "rgba(246, 209, 76, 1)"
-            },
-
-
-
-
-            {
-                "bgColor": "rgba(134, 234, 185, 1)"
-            }
-
-
-        ],
-        "textColor": "black"
+    {
+      "url": "https://telegram.me/saman7z",
+      "className": "fab fa-telegram"
+    },
+    {
+      "url": "https://linkedin.com/in/saman7z",
+      "className": "fa-linkedin"
+    },
+    {
+      "url": "https://instagram.com/Saman7z",
+      "className": "fa-instagram"
     }
+  ],
+  "links": {
+    "github": "https://github.com/Saman7z",
+    "telegram": "https://stackoverflow.com",
+    "linkedin": "https://linkedin.com/in/saman7z",
+    "instagram": "https://instagram.com/Saman7z"
+  },
+  "sections": [
+    {
+      "title": "about",
+      "items": [
+        {
+          "type": "p",
+          "content": "I am a computer Software graduate who loves to Code.",
+          "about": "I'd like to become a senior Full stack developer eventually.",
+          "more": "Very flexible, fast learner, proven ability to adapt to new technologies.",
+          "once": "I readily adapt to new environments and enthusiastically take on new responsibilities and challenges. Additionally, ",
+          "onceMore": "I am equally effective in team-oriented and self-driven professional environments.",
+          "last": "I am confident that I could be a valuable member to your firm, and look forward to interviewing with you in the near future",
+          "finall": " so that I may have the opportunity to prove this to you in person."
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "items": [
+        {
+          "type": "card",
+          "content": {
+            "image": "icons/javascript.svg",
+            "title": "JavaScript"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "icons/react.svg",
+            "title": "React"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "icons/html.svg",
+            "title": "HTML"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "icons/css.svg",
+            "title": "CSS"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "icons/python.svg",
+            "title": "Python"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "icons/bootstrap.png",
+            "title": "Bootstrap"
+          }
+        }
+      ]
+    }
+  ],
+  "icons": {
+    "down": "images/down.png",
+    "top": "images/top.png",
+    "magic": "images/magic-wand.png"
+  },
+  "color": {
+    "backgroundColor": [
+      {
+        "bgColor": "white"
+      },
+
+      {
+        "bgColor": "rgba(246, 209, 76, 1)"
+      },
+
+      {
+        "bgColor": "rgba(134, 234, 185, 1)"
+      }
+    ],
+    "textColor": "black"
+  }
 }
