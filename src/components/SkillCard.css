@@ -38,3 +38,23 @@
       display: none;
     }
   }
+  @media screen and (max-height: 530px)  {
+    .card {
+      border-radius: 10px;
+      border: solid 2px #bbb5b5;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      -ms-flex-pack: center;
+      justify-content: center;
+      height: 140px;
+      width: 120px;
+      margin: 10px;
+  }
+  .skill-title-wrapper h4{
+    font-size: 1rem;
+  }
+    }

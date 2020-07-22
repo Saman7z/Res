@@ -18,6 +18,9 @@
   margin-bottom: 100px;
 }
 @media screen and (max-width: 1020px) {
+  .aboutText {
+    font-size: 1rem;
+  }
   #gushi {
     display: none;
   }
@@ -32,8 +35,40 @@
     margin-bottom: 5px;
   }
 }
-@media (max-height:640px) {
+@media screen and (max-height:680px) {
+  .aboutText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    
+  }
+  #gushi {
+    display: none;
+  }
   .one-more-text {
     display: none;
+   
+  }
+  .aboutText{
+    font-size: 0.8rem;
+  }
+}
+@media (max-height: 490px) {
+  .aboutText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    height: 100%;
+  }
+  #gushi {
+    display: none;
+  }
+  .one-more-text {
+    display: none;
+   
   }
 }
