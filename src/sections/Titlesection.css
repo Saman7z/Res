@@ -32,3 +32,15 @@
     margin-bottom: 100px;
   }
 }
+@media (max-width:374px){
+  .icon {
+    margin: 1rem;
+  }
+}
+@media (max-width:300px){
+  .icon {
+    max-width: 80%;
+    margin: 1rem auto;
+    /* margin: 1rem; */
+  }
+}

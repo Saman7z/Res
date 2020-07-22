@@ -19,9 +19,9 @@ class AboutSection extends Component {
                 <p className="aboutText">
                 {p.content}
                 <span id="gushi">{p.about}</span><br/>
-                {p.more}<br/>
-                {p.once}
-                {p.onceMore}<br/>
+                <span className="one-more-text">{p.more}</span><br/>
+                <span className="one-more-text">{p.once}</span>
+                <span className="one-more-text">{p.onceMore}</span><br/>
                 {p.last}
                 {p.finall}
                 {/* <span id="gushi"> </span>  */}

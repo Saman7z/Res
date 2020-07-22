@@ -15,17 +15,9 @@ export default class Navigation extends Component {
 
       >
         <span
-          className="fa fa-magic rotate-center"
+          className="fa fa-magic rotate-center magic-wand"
           onClick={this.props.src}
-          style={{
-            color: "red",
-            fontSize: "24px",
-            padding: "5px",
-            float: "right",
-            marginRight: "5",
-            marginTop:"28px",
-            zIndex:"999999"
-          }}
+         
         >Magic Wand</span>
 
         <nav>

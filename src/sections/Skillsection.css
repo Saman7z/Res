@@ -1,14 +1,20 @@
 @media (max-width: 450px) {
-
-    .third{
-      height: 130vh;
-    }
+  .third {
+    height: 130vh;
   }
-  .cards-wrapper{
-    display: flex;
-    flex-direction: row;
+}
+.cards-wrapper {
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media (max-width: 360px) {
+  .one-more-text {
+    display: none;
   }
- 
-  
+  #gushi {
+    display: none;
+  }
+}

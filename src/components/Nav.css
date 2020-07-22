@@ -35,4 +35,12 @@
               transform: rotate(360deg);
     }
   }
-  
+  .magic-wand {
+    color: red;
+    font-size: 24px;
+    padding: 5px;
+    float: right;
+    margin-right: 5px;
+    margin-top:28px;
+    z-index: 999999;
+  }
