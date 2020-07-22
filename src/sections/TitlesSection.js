@@ -29,10 +29,10 @@ class TitlesSection extends Component {
           <div>
                     <SocialMediaIcons
                       icons={data.socialIcon}
-                      iconSize={"2.8em"}
+                      iconSize={"2.5rem"}
                       iconColor={this.props.color}
                       classNamePrefix={'icon'}
-
+                      
                     />
                   </div>
 

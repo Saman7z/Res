@@ -32,3 +32,8 @@
     margin-bottom: 5px;
   }
 }
+@media (max-height:640px) {
+  .one-more-text {
+    display: none;
+  }
+}
